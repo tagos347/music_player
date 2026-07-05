@@ -6,19 +6,19 @@ const songs = [
     {
         name: "can't feel my face",
         artist: "The Weeknd",
-        src: "(41) The Weeknd - Can't Feel My Face (Official Video) - YouTube.mp4",
+        src: "(41) The Weeknd - Can't Feel My Face.mp3",
         cover: "img/default.jpg"
     },
     {
         name: "one of the girls",
         artist: "The Weeknd",
-        src: "(41) The Weeknd, JENNIE & Lily Rose Depp - One Of The Girls (Official Audio) - YouTube.mp4",
+        src: "(41) The Weeknd, JENNIE & Lily Rose Depp - One Of The Girls.mp3",
         cover: "img/default.jpg"
     },
     {
         name: "blinding lights",    
         articst: "The Weeknd",
-        src: "(41) The Weeknd - Blinding Lights (Official Video) - YouTube.mp4",
+        src: "(41) The Weeknd - Blinding Lights.mp3",
         cover: "img/default.jpg"
     }
 ];
