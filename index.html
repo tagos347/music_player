@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="player">
+
+    <h1>🎵 Music Player</h1>
+
+    <div class="cover">
+        <img src="img/default.jpg" id="cover">
+    </div>
+
+    <h2 id="songName">Chưa có bài hát</h2>
+
+    <p id="artist">Offline Player</p>
+
+    <audio id="audio"></audio>
+
+    <input type="range"
+           id="progress"
+           value="0"
+           min="0"
+           max="100">
+
+    <div class="time">
+        <span id="current">00:00</span>
+        <span id="duration">00:00</span>
+    </div>
+<div class="controls">
+
+    <button id="random">🔀</button>
+
+    <button id="prev">⏮</button>
+
+    <button id="play">▶</button>
+
+    <button id="next">⏭</button>
+
+    <button id="repeat">🔁</button>
+
+</div>
+    <div class="volume">
+
+        🔊
+
+        <input type="range"
+               id="volume"
+               min="0"
+               max="100"
+               value="100">
+
+    </div>
+
+<div class="list-header">
+    <h3>Danh sách nhạc</h3>
+
+    <button id="addMusic">+ Thêm nhạc</button>
+
+    <input type="file"
+           id="filePicker"
+           accept=".mp3,.mp4,audio/*,video/mp4"
+           multiple
+           hidden>
+</div>
+
+    <ul id="playlist">
+
+    </ul>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
